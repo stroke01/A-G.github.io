@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+
+
+.contenedorPanel1{
+    display: flex;
+    height: 900px;
+    background-color: black;
+    width: 100%;
+}
+
+.ImagenP1{
+    margin-top: 150px;
+    display: flex;
+}
+
+.im1p1{
+    height: 571px;
+    width: 500px;
+}
+
+.im1p2{
+    height: 571px;
+    width: 519px;
+}
+
+.im1p3{
+    height: 571px;
+    width: 500px;
+}
+
+.contenedorLetrasPanel1{
+    margin-left: -880px;
+    top: 400px;
+}
+
+.clp1{
+    font-family: 'Cambria Math';
+    color: white;
+    font-weight: bold;
+    font-size: 42px;
+    margin-top: 243px;
+    margin-left: 13px;
+}
+
+.clp2{
+    font-family: 'Cambria Math';
+    color: white;
+    font-weight: bold;
+    font-size: 42px;
+    margin-top: 5px;
+    margin-left: 115px;
+}
+
+.clp3{
+    font-family: 'Cambria Math';
+    color: white;
+    font-weight: bold;
+    margin-left: 90px;
+    font-size: 42px;
+    margin-top: 5px;
+}
+
+
+
+
+
+
+@media(max-width: 500px){
+    body{
+        width: 270px;
+    }
+
+    .contenedorPanel1{
+        display: flex;
+        height: 1000px;
+        background-color: black;
+        width: 270px;
+    }
+    
+    .ImagenP1{
+        width: 270px; 
+    }
+    
+    .im1p1{
+        height: 300px;
+        width: 270px;
+    }
+    
+    .im1p2{
+        margin-top: 300px;
+        margin-left: -383.900px;
+        height: 300px;
+        width: 270px
+    }
+    
+    .im1p3{
+        margin-top: 600px;
+        margin-left: -383.900px;
+        height: 300px;
+        width: 270px
+    }
+    
+    .contenedorLetrasPanel1{
+        margin-left: -880px;
+        top: 400px;
+    }
+    
+    .clp1{
+        font-family: 'Cambria Math';
+        color: white;
+        font-weight: bold;
+        font-size: 42px;
+        margin-top: 243px;
+        margin-left: 13px;
+    }
+    
+    .clp2{
+        font-family: 'Cambria Math';
+        color: white;
+        font-weight: bold;
+        font-size: 42px;
+        margin-top: 5px;
+        margin-left: 115px;
+    }
+    
+    .clp3{
+        font-family: 'Cambria Math';
+        color: white;
+        font-weight: bold;
+        margin-left: 90px;
+        font-size: 42px;
+        margin-top: 5px;
+    }
+
+}
