@@ -3,7 +3,7 @@
 }
 
 header {
-    width: 270px;
+    width: 360px;
     display: block;
     background-color: rgb(200, 166, 242);
 }
@@ -88,6 +88,3 @@ header a {
             margin-bottom: 0;
         }
 }
-
-
-
